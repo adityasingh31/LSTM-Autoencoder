@@ -1,0 +1,8 @@
+numpy
+tensorflow==2.17.0  
+pandas
+seaborn
+matplotlib
+plotly
+tensorflow-datasets
+tensorflow-probability
