@@ -4,6 +4,15 @@
 
 This project implements a real-time anomaly detection system using an LSTM Autoencoder to analyze continuous data streams. The system is designed to detect unusual patterns, such as exceptional values or deviations from normal behavior, in data streams representing metrics like financial transactions or system performance.
 
+## WHY LSTM-Autoencoder?
+
+Based on the data and the requiremnets of the project it is best to choose LSTM Autoencoder for high accuracy and noise tolerance here the reasons -
+
+1. They can be trained on large amounts of data without requiring manual feature engineering, this makes them particularly useful for analyzing complex time series data with multiple variables or high dimensionality.
+2. LSTM Autoencoders can adapt to changes in data distributions and concept drift, which is vital for real-time anomaly detection where the nature of the data may evolve over time.
+3. LSTM networks can remember long-term dependencies, allowing them to learn and recognize complex patterns and sequences. This is crucial for detecting anomalies in data streams with varying patterns and long-term trends.
+4. By combining LSTM's ability to handle temporal sequences with the autoencoder's reconstruction capabilities, this model can recognize and flag complex and subtle anomalies that simpler models might miss.
+
 ## Features
 
 - **Data Stream Simulation**: Generates synthetic data from August 2024 to September 14, 2024, including regular patterns, seasonal variations, and random noise.
