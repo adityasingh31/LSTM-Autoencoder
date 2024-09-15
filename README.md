@@ -6,6 +6,8 @@ This project implements a real-time anomaly detection system using an LSTM Autoe
 
 ## WHY LSTM-Autoencoder?
 
+<img width="850" alt="autoencoder-architecture" src="https://github.com/user-attachments/assets/c334f979-f86e-454f-84ae-6eb05cb8dd52">
+
 Based on the data and the requiremnets of the project it is best to choose LSTM Autoencoder for high accuracy and noise tolerance here the reasons -
 
 1. They can be trained on large amounts of data without requiring manual feature engineering, this makes them particularly useful for analyzing complex time series data with multiple variables or high dimensionality.
